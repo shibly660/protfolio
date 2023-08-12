@@ -201,3 +201,32 @@ section{
     text-align: center;
     margin-top: 0%;
 }
+
+/* contact section */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #cab6b6;
+    border-radius: 20px;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+}
